@@ -1,0 +1,16 @@
+body {
+    background-image: url('./assets/background.png'); 
+    background-repeat: no-repeat;
+    background-size:100% 100%;  
+    padding:0;
+    margin:0;
+    overflow:hidden; 
+    box-sizing:border-box;
+    height:100%; 
+   -webkit-user-select: none; 
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

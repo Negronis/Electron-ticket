@@ -1,0 +1,279 @@
+/* home */
+.home-container-title {
+   text-align: center;
+   font-size: 3.5em;
+   font-family: "楷体";
+   font-weight: bold;
+   color: #fff;
+   text-shadow: 1px 1px 5px blue;
+   margin-top: 1.5em;
+   margin-bottom: 1em;
+}
+
+.home-container-content-all {
+   width: 80%;
+   margin: 0 auto;
+   background-image: url('../assets/border.png');
+   background-size: 100% 100%;
+   padding-top: 1em;
+   padding-bottom: 1em;
+}
+
+.home-container-content-BigTitle {
+   text-align: center;
+   font-size: 1.8em;
+   padding: 2em;
+   font-weight: bold;
+}
+
+.home-container-content-cardList {
+   width: 90%;
+   margin: 0 auto;
+   display: flex;
+   justify-content: center;
+}
+
+.home-container-content-card {
+   width: 30%;
+   padding: 2.2em;
+   background-image: url('../assets/square.png');
+   background-size: 100% 100%;
+   background-position: center;
+   text-align: center;
+}
+
+.home-container-content-card-title {
+   text-align: center;
+   margin-top: .3em;
+   font-size: 1.3em;
+   color: #fff;
+   font-weight: bold;
+   letter-spacing: 3px;
+   font-family: "黑体";
+}
+
+/* 功能区 */
+.home-container-content-funcList {
+   width: 90%;
+   display: flex;
+   margin: 0 auto;
+   justify-content: space-between;
+   padding-bottom: 5em;
+}
+
+.home-container-content-funcList-child {
+   padding: 1.5em;
+   padding-top: 1.2em;
+   width: 50%;
+   background-image: url('../assets/langSquare.png');
+   background-size: 100% 100%;
+   font-size: 2em;
+   color: #fff;
+   cursor: pointer;
+}
+
+/* list */
+.list-container {
+   width: 100%;
+   overflow: hidden;
+   background: #fff;
+}
+
+.list-header {
+   background-image: linear-gradient(to bottom, #2d8cf0, #2b85e4);
+   font-size: 1.8em;
+   padding: .7em;
+   color: #fff;
+   width: 100%;
+   overflow: hidden;
+}
+
+.list-header-title {
+   margin-left: 1em;
+   font-weight: bold;
+   font-family: "黑体";
+   font-size: 1.2em;
+   display: inline-block;
+   vertical-align: middle;
+}
+
+.list-content {
+   width: 90%;
+   margin: 0 auto;
+   padding: 2em;
+   box-sizing: border-box;
+}
+
+.list-content-list {
+   border-radius: .5em;
+   height: 200px;
+   background-Image: url('../assets/list_center.png');
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+   box-sizing: border-box;
+}
+
+.list-content-list-title {
+   display: flex;
+   justify-content: space-around;
+   font-size: 1.5em;
+   width: 90%;
+   margin: 0 auto;  
+}
+.MuiPagination-ul{
+   justify-content: center;
+}
+.list-content-list-title>div {
+   margin-top: .5em;
+}
+
+.list-content-list-title div:first-child {
+   width: 50%;
+   text-align: left;
+}
+
+.list-content-list-title div:nth-child(2) {
+   text-align: right;
+   color: #fff;
+}
+
+.list-content-list-title div:last-child {
+   text-align: center;
+   color: #fff;
+}
+
+.list-content-list-container {
+   margin-top: .4em;
+   box-sizing: border-box;
+   overflow-x: hidden;
+   overflow-y: scroll; 
+}
+
+.list-content-list-container::-webkit-scrollbar {
+   width: 0;
+   height: 0;
+}
+
+.list-content-list-container-child {
+   display: flex;
+   width: 100%;
+   box-sizing: border-box;
+   border: 2px solid #2d8cf0;
+   border-right: 0;
+   border-left: 0;
+   margin-top: 2.6em;
+   justify-content: space-around;
+   padding:1.5em;
+   font-size:1.2em;
+}
+/* 类型 */
+.list-content-list-container-child-type{
+   flex-grow: 1;
+   text-align: center;
+}
+.list-content-list-container-child-type>span{
+   display: inline-block; 
+   background:#2d8cf0;
+   color:#fff;
+   padding:.1em .5em;
+   margin-top:.6em;  
+}
+/* 科室 */
+.list-content-list-container-child-dep{
+   flex-grow: 3; 
+   text-align: left;
+}
+/* 金额 */
+.list-content-list-container-child-money{
+   flex-grow: 2;  
+   margin-top:.4em; 
+}
+.list-content-list-container-child-money span{
+   color:#ed4014;
+   font-size:1.5em; 
+   display: inline-block;
+   vertical-align: middle;
+   margin-top:-.1em;
+}
+/* 详情 */
+.list-content-list-container-child-detail{ 
+   flex-grow: 2;
+   text-align: center;
+}
+/* 多选 */
+.list-content-list-container-child-checked{
+   flex-grow: 1; 
+}
+/* 分页 */
+.list-content-list-container-changePage{   
+   text-align: center;     
+   margin-top:5em;
+   position: absolute;
+   bottom:5em;
+   width: 100%;
+}
+/* 提交 */
+.list-content-button {
+   margin: 1.5em auto;
+   text-align: center;
+}
+
+.list-bottom {
+   width: 100%;
+   background-image: linear-gradient(to bottom, #2d8cf0, #2b85e4);
+   padding: 1.1em;
+   color: #fff;
+   text-align: center;
+}
+
+/* detail */
+.detail-content{
+   background: #fff;
+   padding:2em;
+}
+.detail-content-ticket{
+   background-image:url('../assets/ticket.png');
+   background-size:100% 100%; 
+   display: flex;
+   width:80%;
+   margin:0 auto;
+   justify-content: space-around;
+   height:30em;
+   position: relative; 
+}
+.detail-content-ticket-child{
+   padding:1em;
+   /* position: absolute; */
+   margin:1.5em;
+   display: inline-block;
+   vertical-align: middle;
+   font-size:1.5em; 
+}
+.detail-content-ticket-child:last-child{
+   text-align: center;
+}
+.detail-content-ticket-child div{
+   margin-top:1em;
+}
+.detail-content-ticket-submit{   
+   text-align: center;
+   margin-top:10em;
+}
+/* dialog */
+.dialog-buttons {
+   text-align: center;
+   padding: 2em 0em; 
+   width: 100%;
+}
+
+.dialog-buttons button {
+   width: 44%;
+}
+
+/* 帮助 */
+.dialog-help {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   position: relative;
+}
